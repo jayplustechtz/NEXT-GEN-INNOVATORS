@@ -47,7 +47,7 @@ src/
     InnovationProcess.tsx          # Observe → Identify → Validate → Build → Test → Improve → Scale
     Values.tsx                     # 6 brand personality values
     Projects.tsx                   # expandable placeholder project cards
-    Contact.tsx                    # contact placeholders + front-end form
+    Contact.tsx                    # company contact details + front-end form
     Footer.tsx                     # footer navigation and brand summary
   data.ts                          # brand constants (name, tagline, vision, mission)
   App.tsx                          # page composition and skip link
@@ -59,5 +59,5 @@ src/
 
 - Company identity, vision, mission, tagline, values, and process follow the supplied `NEXT_GEN_INNOVATORS_Company_Identity_Brand_Guide.pdf`.
 - The logo is preserved as the extracted asset and displayed without distortion.
-- Projects and contact details are clearly identified placeholders; no completed projects, clients, partnerships, achievements, emails, phone numbers, or addresses are invented.
+- Project cards remain placeholders. Company contact details are listed in the Contact section.
 - The contact form is a front-end placeholder; connect it to an email or backend service before collecting live submissions.

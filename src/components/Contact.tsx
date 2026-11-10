@@ -24,29 +24,32 @@ export function Contact() {
           <aside className="glass-card spotlight-card contact-panel">
             <h3>Company contact details</h3>
             <p className="muted" style={{ marginTop: '0.6rem' }}>
-              Contact information below uses placeholders until official company details are
-              confirmed.
+              Get in touch with NEXT GEN INNOVATORS.
             </p>
-            <ul className="contact-list" aria-label="Contact placeholders">
+            <ul className="contact-list" aria-label="Company contact details">
               <li className="contact-item">
                 <i className="fa-solid fa-envelope" aria-hidden="true" />
                 <div>
-                <span className="contact-item__label">Email</span>
-                <span className="contact-item__value">Official email address (placeholder)</span>
+                  <span className="contact-item__label">Email</span>
+                  <a className="contact-item__value" href="mailto:info@nextgen.tz">
+                    info@nextgen.tz
+                  </a>
                 </div>
               </li>
               <li className="contact-item">
                 <i className="fa-solid fa-phone" aria-hidden="true" />
                 <div>
-                <span className="contact-item__label">Phone</span>
-                <span className="contact-item__value">Official phone number (placeholder)</span>
+                  <span className="contact-item__label">Phone</span>
+                  <a className="contact-item__value" href="tel:0694836880">
+                    0694836880
+                  </a>
                 </div>
               </li>
               <li className="contact-item">
                 <i className="fa-solid fa-location-dot" aria-hidden="true" />
                 <div>
-                <span className="contact-item__label">Location</span>
-                <span className="contact-item__value">Official location / address (placeholder)</span>
+                  <span className="contact-item__label">Location</span>
+                  <span className="contact-item__value">Kijitonyama, Dar es Salaam, Tanzania</span>
                 </div>
               </li>
             </ul>
